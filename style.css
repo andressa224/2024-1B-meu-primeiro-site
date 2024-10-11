@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+
+*
+
+
+
+
 :root{
-    --misty-rose: #ffe5ecff;
-    --pink: #ffc2d1ff;
-    --cherry-blossom-pink: #ffb3c6ff;
-    --bakermiller-pink: #ff8fabff;
-    --rosa-forte: #fb6f92ff; 
+
+    --branco: #ffe5ecff;
+    --rosa: #ffc2d1ff;
+    --rosa2: #ffb3c6ff;
+    --rosa-forte: #ff8fabff;
+    --rosa-forte2: #fb6f92ff; 
+   --fonte-titulo: "Dancing Script", cursive;
+    --fonte-texto:  "Edu AU VIC WA NT Dots", cursive;
 }
+
+body{
+    background-color: var(--rosa);
+    font-family: var(--fonte-texto);
+}
+
+  .cabecalho{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: var(--rosa-forte);
+  }
